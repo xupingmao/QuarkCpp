@@ -10,6 +10,7 @@ namespace QuarkCpp
 		Drawable();
 		virtual ~Drawable();
 
+		const char*      getType();
 		void             set(BaseObject* drawable, bool isDOM = false);
 		Drawable*        get(BaseObject* obj, BaseObject* context);
 		bool             isDrawable(BaseObject* drawable);

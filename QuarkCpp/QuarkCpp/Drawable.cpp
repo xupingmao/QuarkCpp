@@ -5,7 +5,7 @@ using namespace QuarkCpp;
 
 Drawable::Drawable()
 {
-	type = "Drawable";
+	// type = "Drawable";
 }
 
 
@@ -26,4 +26,9 @@ void Drawable::set(BaseObject* drawable, bool isDOM)
 bool Drawable::isDrawable(BaseObject* obj) 
 {
 	return false;
+}
+
+const char* Drawable::getType()
+{
+	return "Drawable";
 }

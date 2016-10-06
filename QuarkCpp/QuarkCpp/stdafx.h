@@ -17,5 +17,13 @@
 #include <string>
 #include <iostream>
 
+#include <cstdio>
+#include <cstdlib>
+
 #include "BaseObject.h"
 #include "Drawable.h"
+#include "Rect.h"
+#include "Rectangle.h"
+#include "Context.h"
+#include "DisplayObject.h"
+#include "CanvasContext.h"

@@ -5,7 +5,6 @@ using namespace QuarkCpp;
 
 BaseObject::BaseObject()
 {
-	type = "BaseObject";
 
 }
 
@@ -15,10 +14,15 @@ BaseObject::~BaseObject()
 
 
 const char* BaseObject::getType() {
-	return type;
+	return "BaseObject";
 }
 
 bool BaseObject::isInstanceof(const char* type) {
 	// ensure is the same char
-	return this->type == type;
+	return getType() == type;
+}
+
+string BaseObject::toString()
+{
+	return getType();
 }

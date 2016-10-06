@@ -3,6 +3,7 @@
 *.log
 *.exe
 *.db
+*.opendb
 QuarkCpp/Debug/
 QuarkCpp/ipch/
 QuarkCpp/QuarkCpp/Debug
