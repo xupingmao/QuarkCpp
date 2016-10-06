@@ -1,0 +1,9 @@
+*.obj
+*.tlog
+*.log
+*.exe
+*.db
+QuarkCpp/Debug/
+QuarkCpp/ipch/
+QuarkCpp/QuarkCpp/Debug
+QuarkCpp/.vs/
