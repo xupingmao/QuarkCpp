@@ -14,6 +14,7 @@
 
 // TODO:  在此处引用程序需要的其他头文件
 
+#include <Windows.h>
 #include <string>
 #include <iostream>
 
@@ -27,3 +28,4 @@
 #include "Context.h"
 #include "DisplayObject.h"
 #include "CanvasContext.h"
+#include "Quark.h"

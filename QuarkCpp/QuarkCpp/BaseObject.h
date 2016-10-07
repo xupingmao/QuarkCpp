@@ -1,11 +1,10 @@
 #pragma once
 
 #include <string>
-using namespace std;
 
 namespace QuarkCpp
 {
-
+	using namespace std;
 	typedef float number;
 
 	class BaseObject

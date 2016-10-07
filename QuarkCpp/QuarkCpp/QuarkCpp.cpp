@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	BaseObject* obj = new Drawable;
-	BaseObject* rectangle = new Rectangle(0, 0, 100, 100);
+	BaseObject* rectangle = new QuarkCpp::Rectangle(0, 0, 100, 100);
 	BaseObject* displayObj = new DisplayObject;
 
 	cout << "obj.type=" << obj->getType() << endl;

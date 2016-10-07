@@ -8,9 +8,22 @@ namespace QuarkCpp
 
 	class CanvasContext : public Context
 	{
+	private:
+
+		HDC hdc;
+		RECT* rect;
+
 	public:
 		CanvasContext();
 		~CanvasContext();
+
+		virtual const char* getType()
+		{
+			return "CanvasContext";
+		}
+
+		virtual void setHDC(HDC hdc);
+		virtual void setRect(RECT* rect);
 
 		virtual void startDraw();
 		virtual void endDraw();

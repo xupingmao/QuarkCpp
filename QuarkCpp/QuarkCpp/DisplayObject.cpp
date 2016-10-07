@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "DisplayObject.h"
 
+using namespace QuarkCpp;
 
 DisplayObject::DisplayObject()
 {

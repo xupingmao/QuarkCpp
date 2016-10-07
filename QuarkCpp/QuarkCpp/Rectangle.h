@@ -2,8 +2,6 @@
 
 #include "stdafx.h"
 
-using namespace QuarkCpp;
-
 namespace QuarkCpp 
 {
 	class Rectangle : public BaseObject

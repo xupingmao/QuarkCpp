@@ -1,7 +1,5 @@
 #pragma once
 
-using namespace QuarkCpp;
-
 namespace QuarkCpp
 {
 	class Context : public BaseObject
@@ -9,6 +7,9 @@ namespace QuarkCpp
 	public:
 		Context();
 		virtual ~Context() = 0;
+
+		virtual void setHDC(HDC hdc) = 0;
+		virtual void setRect(RECT* rect) = 0;
 
 		virtual void startDraw() = 0;
 		virtual void endDraw() = 0;

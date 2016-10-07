@@ -1,7 +1,5 @@
 #pragma once
 
-using namespace QuarkCpp;
-
 namespace QuarkCpp
 {
 	class Rect
