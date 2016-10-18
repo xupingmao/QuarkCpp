@@ -149,31 +149,39 @@
     <ClInclude Include="CanvasContext.h" />
     <ClInclude Include="Context.h" />
     <ClInclude Include="DisplayObject.h" />
+    <ClInclude Include="DisplayObjectContainer.h" />
     <ClInclude Include="Drawable.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Stage.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Quark.h" />
+    <ClInclude Include="TimeInfo.h" />
+    <ClInclude Include="TimerListener.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseObject.cpp" />
     <ClCompile Include="CanvasContext.cpp" />
     <ClCompile Include="Context.cpp" />
     <ClCompile Include="DisplayObject.cpp" />
+    <ClCompile Include="DisplayObjectContainer.cpp" />
     <ClCompile Include="Drawable.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="QuarkCpp.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Stage.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TimeInfo.cpp" />
     <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Quark.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

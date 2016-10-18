@@ -28,4 +28,6 @@
 #include "Context.h"
 #include "DisplayObject.h"
 #include "CanvasContext.h"
+#include "TimerListener.h"
+
 #include "Quark.h"

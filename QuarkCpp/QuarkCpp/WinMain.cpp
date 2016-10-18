@@ -53,7 +53,6 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 		// ----------------------- display our minimal info
 	case WM_PAINT:
 	{
-
 		Q.OnPaint(hwnd, message, wParam, lParam);
 		break;
 	}
@@ -69,10 +68,13 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 void CALLBACK OnTimer(HWND hwnd, UINT nMsg, UINT_PTR nIDEvent, DWORD dwTime)
 {
-	wchar_t buf[1024];
-	LPCWSTR fmt = TEXT("%d, %d, %lld\n"); // FIXME long long 似乎不能这样打印
-	swprintf_s<1024>(buf, fmt, (int)nMsg, (int)nIDEvent, (long long)dwTime);
-	OutputDebugString(buf);
+	// wchar_t buf[1024];
+	// LPCWSTR fmt = TEXT("%d, %d, %lld\n"); // FIXME long long 似乎不能这样打印
+	//swprintf_s<1024>(buf, fmt, (int)nMsg, (int)nIDEvent, (long long)dwTime);
+	//OutputDebugString(buf);
+
+	// 重绘窗口
+	RedrawWindow(hwnd,NULL, NULL, RDW_INVALIDATE | RDW_UPDATENOW | RDW_ERASE);
 }
 
 //+---------------------------------------------------------------------------

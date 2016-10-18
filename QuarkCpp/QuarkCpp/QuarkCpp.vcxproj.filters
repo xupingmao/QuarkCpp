@@ -51,6 +51,18 @@
     <ClInclude Include="Quark.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DisplayObjectContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -84,6 +96,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="QuarkCpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayObjectContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quark.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
